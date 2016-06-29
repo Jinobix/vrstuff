@@ -1,0 +1,29 @@
+/*** Awesome Table ***/
+.google-visualization-table-tr-even{
+    background-color: #222 !important;
+color: #fff;
+}
+
+.google-visualization-table-tr-odd{
+    background-color: #000 !important;
+color: #fff;
+}
+
+/* selected/hovered row in a TABLE view */
+.google-visualization-table-tr-sel td,
+.google-visualization-table-tr-over td {
+	background-color: #F4DD1D !important;
+    color: #000;
+    font-weight: bold;
+}
+
+#topContainer {
+ display:none !important;   
+}
+
+/* filtered results information : last - first / total number of result */
+.count {
+  border-top:1px solid #E5E5E5;
+  border-bottom:1px solid #E5E5E5;
+  display:none !important;
+}
